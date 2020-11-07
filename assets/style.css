@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --blue-black: #334a6b;
+    --blue-white: #d5dfed;
+    --navy: #2c3642;
+    --light-blue: #9ad6d2;
+    --fire-red: rgb(235, 85, 52)
+}
+
 
 /* Body Styling Start */
 
@@ -13,7 +21,44 @@
 
 
 /* Header Styling Start */
+header {
+    padding: 20px 0 20px 0;
+    background-color: var(--navy);
+}
 
+header h1 {
+    background-color: var(--light-blue);
+    display: block;
+    text-align: left;
+    align-items: right;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: var(--navy);
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    display: inline-block;
+    height: 20px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 2px 0 2px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: large;
+    color: var(--light-blue);
+    padding: 10px;
+    border-bottom: 3px solid var(--light-blue);
+    line-height: 3.0;
+}
 
 /* Header Styling End */
 
