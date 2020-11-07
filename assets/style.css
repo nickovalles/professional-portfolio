@@ -14,7 +14,11 @@
 
 
 /* Body Styling Start */
-
+body {
+    color: var(--blue-black);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--blue-white);
+}
 
 /* Body Styling End */
 
