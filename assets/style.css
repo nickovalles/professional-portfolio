@@ -23,11 +23,14 @@ body {
 /* Body Styling End */
 
 
-
 /* Header Styling Start */
 header {
     padding: 20px 0 20px 0;
     background-color: var(--navy);
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    display: flex;
 }
 
 header h1 {
@@ -35,6 +38,15 @@ header h1 {
     display: block;
     text-align: left;
     align-items: right;
+    padding: 10px 10px 10px 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
 }
 
 header h1 a {
@@ -66,12 +78,28 @@ nav ul li a {
 
 /* Header Styling End */
 
+.hero {
+    background-image: url("../assets/images/mountain.jpg");
+    background-size: cover;
+    background-position: 50% 35%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
 
+.hero div {
+    background: var(--light-blue);
+    color: var(--blue-black);
+    padding: 5px;
+    border-bottom-left-radius: 10px;
+}
 
 /* Footer Styling Start */
 
 
 /* Footer Styling End */
+
 
 
 /* Hero Styling Start */
@@ -80,10 +108,75 @@ nav ul li a {
 /* Hero Styling End */
 
 
+/* Section Styling Start */
+
+.section-title {
+    text-align: center;
+    border-bottom: 5px solid var(--blue-black);
+    border-top: 5px solid var(--blue-black);
+    background-color: var(--light-blue);
+}
+
+.section-content {
+    font-size: small;
+    padding: 20px;
+}
+
+.section-content p {
+    line-height: 1.5;
+}
+
+/* Section Styling End */
 
 
+/* Grid Styling Start */
 
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+}
 
+.grid-item {
+    border: 5px solid var(--light-blue);
+    margin: 20px;
+    padding: 30px 30px 30px 0;
+    background-size: 200%;
+    border-radius: none;
+}
+
+.surf-report {
+    background-image: url("#");
+    background-size: cover;
+}
+
+.led-wall {
+    background-image: url("#");
+    background-size: cover;
+}
+
+.calculator {
+    background-image: url("#");
+    background-size: cover;
+}
+
+.pastel-puzzles {
+    background-image: url("#");
+    background-position: cover;
+}
+
+.run-buddy {
+    background-image: url("#");
+    background-size: cover;
+}
+
+.blue-background {
+    background-color: var(--light-blue);
+    padding: 20px;
+    width: 75%;
+}
+
+/* Grid Styling End */
 
 
 /* Media Queries Start */
