@@ -88,4 +88,14 @@ nav ul li a {
 
 /* Media Queries Start */
 
+/*LARGER THAN MOBILE PHONE*/
+@media screen and (min-width: 575px) {
+
+}
+
+/*LARGER THAN TABLET*/
+
+@media screen and (min-width: 768px) {
+    
+}
 /* Media Queries End */
