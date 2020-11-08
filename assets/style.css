@@ -54,6 +54,13 @@ header h1 a {
     color: var(--navy);
 }
 
+header nav ul li a:hover {
+    background: var(--fire-red);
+    border-radius: 10px;
+    border: none;
+    transition: 0.5s;
+}
+
 nav ul {
     list-style: none;
     width: 100%;
@@ -88,6 +95,14 @@ footer {
     color: var(--light-blue);
     padding: 20px 0 20px 0;
 }
+
+#contact-me a:hover {
+    background: var(--fire-red);
+    border-radius: 10px;
+    padding: 0 .5px 3 .5px;
+    border: none;
+    transition: 0.4s;
+} 
 
 
 /* Footer Styling End */
