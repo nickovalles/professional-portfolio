@@ -30,8 +30,10 @@ header {
     align-items: center;
     justify-content: space-between;
     position: sticky;
+    top: 0;
     display: flex;
     margin: auto;
+    z-index: 9999;
 }
 
 header h1 {
@@ -40,8 +42,6 @@ header h1 {
     text-align: left;
     align-items: right;
     padding: 10px 10px 10px 50px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
 }
 
 header ul {
@@ -127,7 +127,6 @@ footer {
     background: var(--light-blue);
     color: var(--blue-black);
     padding: 5px;
-    border-bottom-left-radius: 10px;
 }
 
 .hero-text {
@@ -136,7 +135,6 @@ footer {
     margin: 20%;
     font-size: 18px;
     line-height: 1.2;
-    border-radius: 15px;
     position: relative;
 }
 
