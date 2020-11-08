@@ -154,6 +154,10 @@ nav ul li a {
     background: var(--blue-white)
 }
 
+#work a {
+    color: var(--navy);
+}
+
 #work .grid-item {
     position: relative;
 }
@@ -170,6 +174,8 @@ nav ul li a {
     border-bottom: 2px solid var(--blue-black);
     line-height: 2.0;
     padding: 10px;
+    text-decoration: none;
+    color: var(--navy);
 }
 
 /* Section Styling End */
