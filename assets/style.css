@@ -25,7 +25,7 @@ body {
 
 /* Header Styling Start */
 header {
-    padding: 20px 0 20px 0;
+    padding: 20px 0 25px 0;
     background-color: var(--navy);
     align-items: center;
     justify-content: space-between;
@@ -78,6 +78,16 @@ nav ul li a {
 
 /* Header Styling End */
 
+
+/* Footer Styling Start */
+
+
+/* Footer Styling End */
+
+
+
+/* Hero Styling Start */
+
 .hero {
     background-image: url("../assets/images/mountain.jpg");
     background-size: cover;
@@ -95,16 +105,6 @@ nav ul li a {
     border-bottom-left-radius: 10px;
 }
 
-/* Footer Styling Start */
-
-
-/* Footer Styling End */
-
-
-
-/* Hero Styling Start */
-
-
 /* Hero Styling End */
 
 
@@ -117,14 +117,46 @@ nav ul li a {
     background-color: var(--light-blue);
 }
 
+.section-container {
+    font-size: xx-large;
+    padding: 30px;
+    display: flex;
+    justify-content: left;
+}
+
 .section-content {
-    font-size: small;
+    font-size: medium;
+    width: 80%;
     padding: 20px;
 }
 
 .section-content p {
     line-height: 1.5;
 }
+
+.section-container h1 {
+    background-color: var(--blue-white);
+    border: none;
+    margin-left: 100px;
+    padding-right: 20px;
+    text-align: right;
+    border-right: 5px solid var(--blue-black);
+    width: 200px;
+}
+
+#about-me p {
+    text-align: left;
+    margin-left: 20px;
+}
+
+#work {
+    background: var(--blue-white)
+}
+
+#work .grid-item {
+    position: relative;
+}
+
 
 /* Section Styling End */
 
@@ -133,40 +165,46 @@ nav ul li a {
 
 .grid-container {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
     width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 .grid-item {
-    border: 5px solid var(--light-blue);
+    border: 8px solid var(--light-blue);
     margin: 20px;
     padding: 30px 30px 30px 0;
-    background-size: 200%;
+    background-size: 120%;
     border-radius: none;
 }
 
+.grid-item.large {
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+}
+
 .surf-report {
-    background-image: url("#");
+    background-image: url("./images/surf.jpg");
     background-size: cover;
 }
 
 .led-wall {
-    background-image: url("#");
+    background-image: url("./images/led-wall.jpg");
     background-size: cover;
 }
 
 .calculator {
-    background-image: url("#");
+    background-image: url("./images/calculator.jpg");
     background-size: cover;
 }
 
 .pastel-puzzles {
-    background-image: url("#");
+    background-image: url("./images/puzzles.jpg");
     background-position: cover;
 }
 
 .run-buddy {
-    background-image: url("#");
+    background-image: url("./images/run-buddy.PNG");
     background-size: cover;
 }
 
@@ -177,6 +215,7 @@ nav ul li a {
 }
 
 /* Grid Styling End */
+
 
 
 /* Media Queries Start */
