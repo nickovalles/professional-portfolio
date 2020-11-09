@@ -253,7 +253,7 @@ footer {
 }
 
 .surf-report {
-    background-image: url("./images/surf.jpg");
+    background-image: url(./images/surf.jpg);
     background-size: cover;
 }
 
