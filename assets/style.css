@@ -127,7 +127,6 @@ footer {
 .hero div {
     background: var(--light-blue);
     color: var(--blue-black);
-    padding: 5px;
 }
 
 /* Hero Styling End */
@@ -218,7 +217,7 @@ footer {
 .grid-item {
     border: 8px solid var(--light-blue);
     margin: 20px;
-    padding: 30px 30px 30px 0;
+    padding: 30px 20px 30px 0;
     background-size: 120%;
     border-radius: none;
     text-decoration: none;
@@ -317,24 +316,67 @@ footer {
     .footer {
         text-align: center;
         width: 100%;
+        flex-wrap: wrap;
       }
     
     .section-title {
-        width: 80%;
-      }
-      
+        text-align: center;
+        background-color: var(--light-blue);
+        flex-wrap: wrap;
+    }
+    
+    .section-container {
+        font-size: x-large;
+        padding: 30px;
+        display: block;
+        justify-content: center;
+    }
+    
     .section-content {
-        flex: 0 70%;
-      }
-
-    .section-title {
+        font-size: small;
         width: 80%;
-      }
-      
-      
-    .contact-me a {
-        flex: 1 100%;
-      }
+        padding: 20px;
+        text-decoration: none;
+    }
+
+    #about-me .section-content {
+        font-size: large;
+    }
+    
+    .section-content p {
+        line-height: 1.5;
+    }
+    
+    .section-container h1 {
+        background-color: var(--blue-white);
+        border: none;
+        margin-left: 100px;
+        padding-right: 0;
+        text-align: center;
+        border-bottom: 5px solid var(--blue-black);
+        width: 200px;
+    }
+
+    #work .section-content h2 p {
+        flex-wrap: wrap;
+    }
+
+    #contact-me .section-content {
+        display: block;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        padding-left: 30px;
+    }
+    
+    #contact-me .section-content a {
+        font-size: larger;
+        border-bottom: 2px solid var(--blue-black);
+        line-height: 2.0;
+        padding: 10px;
+        text-decoration: none;
+        color: var(--navy);
+    }
       
     }
 
