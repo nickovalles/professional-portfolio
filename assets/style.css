@@ -258,7 +258,7 @@ footer {
 }
 
 .led-wall {
-    background-image: url("./images/led-wall.jpg");
+    background-image: url("./images/anchor.png");
     background-size: cover;
 }
 
@@ -268,7 +268,7 @@ footer {
 }
 
 .pastel-puzzles {
-    background-image: url("./images/anchor.png");
+    background-image: url("./images/boostme.png");
     background-position: cover;
 }
 
